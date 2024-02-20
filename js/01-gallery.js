@@ -63,9 +63,9 @@ function createGalleryMarkup(items) {
 }
 
 galleryEl.innerHTML = markup;
-galleryEl.addEventListener("click", onGalleryClock);
+galleryEl.addEventListener("click", onGalleryClick);
 
-function onGalleryClock(e) {
+function onGalleryClick(e) {
 	e.preventDefault();
 	const image = e.target;
 
